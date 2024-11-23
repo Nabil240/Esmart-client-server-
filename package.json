@@ -1,0 +1,31 @@
+{
+   "name": "shop-esmart-server",
+   "version": "1.0.0",
+   "main": "index.js",
+   "type": "module",
+   "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "dependencies": {
+      "axios": "^1.7.4",
+      "cloudinary": "^2.4.0",
+      "cookie-parser": "^1.4.6",
+      "cors": "^2.8.5",
+      "dotenv": "^16.4.5",
+      "express": "^4.19.2",
+      "express-rate-limit": "^7.4.0",
+      "fuse.js": "^7.0.0",
+      "jsonwebtoken": "^9.0.2",
+      "mongodb": "^6.8.0",
+      "nodemon": "^3.1.7",
+      "sslcommerz-lts": "^1.1.0"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "description": "",
+   "devDependencies": {
+      "@types/mongodb": "^4.0.7"
+   }
+}
