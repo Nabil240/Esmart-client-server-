@@ -68,7 +68,7 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     
-    // await client.connect();                 // before uploaded in firebase just make it Comment 
+     await client.connect();                 // before uploaded in firebase just make it Comment 
 
     const productsCollection = client.db("shopEsmartDb").collection("products");
     const usersCollection = client.db("shopEsmartDb").collection("users");
